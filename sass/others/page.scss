@@ -1,0 +1,312 @@
+* {
+  color: white;
+}
+div {
+  display: block;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.container-a {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-a.container-b {
+  background-image: url(../../imagens/home/imagemBackground1.jpg);
+}
+.container-a.container-c {
+  background-image: url(../../imagens/home/imagembackground2.jpg);
+}
+.container-a.container-d {
+  background-image: url(../../imagens/home/videobackground.gif);
+}
+.container-a.container-e {
+  background-image: url(../../imagens/home/imagembackground3.jpg);
+}
+.container-a.container-f {
+  background-image: url(../../imagens/falcon/falconbackground1.jpg);
+}
+.container-a.container-g {
+  background-image: url(../../imagens/falcon/falconbackground2.jpg);
+}
+.container-a.carrossel-1 {
+  background-image: url(../../imagens/falcon/carrosesl-1.jpg);
+}
+.container-a.carrossel-2 {
+  background-image: url(../../imagens/falcon/carrosel-2.jpg);
+}
+.container-a.carrossel-3 {
+  background-image: url(../../imagens/falcon/carrosel-3.jpg);
+}
+.container-a.carrossel-4 {
+  background-image: url(../../imagens/falcon/carrosel-4.jpg);
+}
+.container-a.carrossel-5 {
+  background-image: url(../../imagens/falcon/carrosel-5.jpg);
+}
+.container-a.container-h {
+  background-image: url(../../imagens/falcon/falconbackground3.jpg);
+}
+.container-a.container-i {
+  background-image: url(../../imagens/humanFligh/humanbackground1.jpg);
+}
+.container-a.container-j {
+  background-image: url(../../imagens/humanFligh/humanbackground2.jpg);
+}
+.container-a.container-k {
+  background-image: url(../../imagens/humanFligh/humanbackground3.jpg);
+}
+.container-a.container-l {
+  background-image: url(../../imagens/humanFligh/humanbackground4.jpg);
+}
+.container-a.container-m {
+  background-image: url(../../imagens/humanFligh/humanbackground5.jpg);
+}
+.imagem-logo {
+  width: 250px;
+  height: auto;
+}
+.cabecalho {
+  background-color: transparent;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 13px;
+}
+.link-footer {
+  font-size: 18px;
+}
+.texto {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0px;
+}
+.texto-principal {
+  font-size: 35px;
+  padding-left: 0 px;
+}
+.texto-secundario {
+  font-size: 20px;
+}
+.container1 {
+  background-color: transparent;
+  align-items: center;
+}
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+.containerLeftContent {
+  margin-right: 55%;
+  padding-top: 15%;
+  padding-left: 120px;
+}
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.texto-1 {
+  padding-top: 200px;
+}
+.texto-2 {
+  padding-top: 300px;
+}
+.texto-3 {
+  font-size: 60px;
+}
+.arrowDown {
+  width: 120px;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-onebitcode {
+  color: #aaaaaa;
+}
+
+.facon {
+  padding-left: 40px;
+}
+
+.titulo-falcon {
+  padding-top: 270px;
+  font-size: 110px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.numeros {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spaceX-texto {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spaceX-texto-centro {
+  text-align: center;
+  font-size: 22px;
+}
+
+.numero-titulo {
+  font-size: 100px;
+}
+.numero-descricao {
+  font-size: 20px;
+}
+
+.texto-falcon {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .numero-titulo {
+    font-size: 60px;
+  }
+  .numero-descricao {
+    font-size: 16px;
+  }
+  .titulo-falcon {
+    font-size: 60px;
+  }
+  .texto-falcon {
+    width: auto;
+  }
+  #overViewPosition {
+    padding-top: 45%;
+  }
+  .subtitulo-falcon {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .numeros {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .spaceX-texto-centro {
+    font-size: 12px;
+  }
+
+  .numero-titulo {
+    font-size: 30px;
+  }
+  .numero-descricao {
+    font-size: 14px;
+  }
+
+  .texto-falcon {
+    font-size: 22px;
+    line-height: 50px;
+  }
+}
+.container-falcon {
+  padding-top: 200px;
+}
+.carousel-control-prev {
+  left: 0;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+.carousel {
+  position: relative;
+}
+.carousel.pointer-event {
+  touch-action: pan-y;
+}
+.downloadDesc {
+  background-color: black;
+  height: 55vh;
+  padding-top: 180px;
+}
+.divisor-footer {
+  border-top: 2px solid white;
+}
+.d-block {
+  display: block !important;
+}
+.w-100 {
+  width: 100% !important;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
